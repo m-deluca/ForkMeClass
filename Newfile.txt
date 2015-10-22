@@ -1,6 +1,2 @@
 this is a new file that was uploaded
-<<<<<<< HEAD
-for the conflict !!!
-=======
-merge conflict will show up here
->>>>>>> origin/master
+bye bye merge conflict!!
