@@ -1,0 +1,8 @@
+@charset "UTF-8";
+/*This is a css document*/
+body
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 100%; /*basleine for font is 16px*/
+	color: #333;
+}
