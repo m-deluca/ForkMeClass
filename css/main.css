@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* CSS Document */
+#Container
+{
+	text-align: center;
+}
+#listterms{
+	text-align: center;
+	color: green;
+}
