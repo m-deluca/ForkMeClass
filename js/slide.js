@@ -5,14 +5,7 @@ var current= 0;
 
 // Clear images 
 
-function reset()
-{
-	for (var i=0; i<sliderImages.length; i++)
-	{
-		sliderImages[i].style.display = 'none';
-	}
 
-}
 
 function starSlide()
 {
@@ -53,17 +46,7 @@ function slideLeft ()
 	});
 
 
-	arrowRight.addEventListener('click', function()
-	{
-		if(current === sliderImages.length -1 )
-		{
-			current= -1;
-
-		}
-
-		slideRight();
-	});
 
 
-	starSlide();
+	
 
