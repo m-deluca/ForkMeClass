@@ -7,7 +7,7 @@
 
 	console.log("fired");
 
-	document.body.innerHTML = "<h1>Markel Mairs</h1>";
+	document.body.insertAdjacentHTML('afterbegin', "<h1>Markel Mairs</h1>");
 })();
 
 
