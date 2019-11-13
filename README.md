@@ -1,2 +1,1 @@
-# ForkMeClass
-Please Fork This Repo. Once it is forked, modify or add files then make a pull request.
+I have made changes to this ReadMe file and I will make a pull request
