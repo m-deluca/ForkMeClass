@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url("../images/bg1.jpg");
+	background-attachment: fixed;
+}
+
+
+select {
+	width: 100%;
+	padding:10px;
+	border-radius:10px;
+	border: none;
+	border: solid 1px #d9d9d9;
+	margin-top: 20px;
+	box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, .1);
+  }
+
+#infoCon {
+	display: flex;
+}
+
+#maindiv {
+	width:300px;
+	height:450px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: 70px;
+	padding: 10px;
+}
+
+
+
+.topNav {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding-right: 20px;
+}
+
+.logo {
+	width: 70px;
+	cursor: pointer;
+	margin: 30px 0;
+	padding-left: 50px;
+}
+
+nav {
+	flex: 1;
+	text-align: right;
+}
+
+nav ul img {
+	padding-right: 30px;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 50px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	font-size: 15px;
+	font-size: large;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+	font-size: 19px;
+}
+
+.cityInfo {
+	width: 70%;
+	padding-left: 170px;
+	text-align: center;
+	margin: 70px 0;
+}
+
+h2 {
+	font-size: 50px;
+	text-align: center;
+}
+
+input[type=submit] {
+	background-color: #000000;
+	color: white;
+	padding: 14px 30px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
