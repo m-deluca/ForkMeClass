@@ -1,13 +1,39 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>What the Fork?</title>
+<title>Nomad</title>
+<link rel="icon" href="images/nomad.svg" type="icon">
+<link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
-
 <body>
 
-	<img src="images/meme.jpg">
-
+            <div class="topNav">
+                <img src="images/nomad.svg" class="logo" alt="logo">
+                <nav>
+                    <ul>
+                        <li><a href="#">City Guides</a></li>
+                        <li><a href="#">Food Tours</a></li>
+                        <li><a href="#">Stories</a></li>
+                        <img src="images/heart.png" class="icon1" alt="heartIcon">
+                        <img src="images/login.png" class="icon2" alt="logIn">
+                    </ul>
+                </nav>
+            </div>
+            <h2>Welcome to Nomad</h2>
+        <div class="cityInfo">
+            <label for="city">Pick Your destination city<label>
+                <select name="city" id="city">
+                    <option value="selected">select a city</option>
+                  <option value="london">London</option>
+                  <option value="toronto">Toronto</option>
+                  <option value="banff">Banff</option>
+                  <option value="halifax">Halifax</option>
+                  <option value="vancouver">Vancouver</option>
+                </select>
+                <br><br>
+                <input type="submit" value="Submit">
+            </div>
+        <script src="js/main.js"></script>
 </body>
 </html>
